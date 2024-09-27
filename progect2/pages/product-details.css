@@ -1,0 +1,76 @@
+header.flex{
+    background-color: #212529;
+    color: white;
+    padding-block: .6rem;
+    & .fa-solid{
+        color: white;
+    }
+    & .logo .fa-solid{
+        font-size: 1.5rem;
+    }
+    header.flex .sing_in:hover ,
+    header.flex .register:hover{
+    padding: .5rem 1.1rem;
+    border: solid 1px rgb(152,154,189);
+}
+    & .cart:hover{
+        border: 1px solid rgb(152, 154, 189);
+        padding: .5rem 1.1rem .5rem .7rem;
+    }
+}
+
+main.flex{
+    background-color: white;
+    max-width:800px ;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 1px -1px,     rgba(0, 0, 0, 0.14) 0px 1px 1px 0px,     rgba(0, 0, 0, 0.12) 0px 1px 3px 0px;
+    border-radius:5px ;
+    -webkit-border-radius:5px ;
+    -moz-border-radius:5px ;
+    -ms-border-radius:5px ;
+    -o-border-radius:5px ;
+    & .price{
+        font-size: 1.22rem;
+        font-weight: bold;
+        color: red;
+    }
+    & h1 {
+        font-size: 1.7rem;
+    }
+    & .product-details{
+        margin-inline:1.1rem ;
+    }
+    & .des{
+        text-align: left;
+        margin-block: 1.1rem;
+        line-height: 1.22rem;
+    }
+    & .add-to-cart{
+        color: white;
+        background-color: blue;
+        padding: 6px 8px;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        font-size: .9rem;
+        gap: .33rem;
+}
+    & .fa-cart-plus{
+        color:white;
+    }
+}
+
+@media (width <550px) {
+    main.flex{
+        flex-wrap: wrap;
+    }
+    img{
+        margin-inline:auto ;
+        width: 50%;
+    }
+}
+.product-details{
+    margin-top: 1.3rem;
+    margin-bottom: 1.3rem;
+}

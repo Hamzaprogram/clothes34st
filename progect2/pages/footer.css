@@ -1,0 +1,13 @@
+footer{
+    background-color: #212529;
+    text-align: center;
+    border-top-left-radius:8px ;
+    border-top-right-radius:8px ;
+    color: white;
+    padding-block: 1rem;
+    margin-top: 3rem;
+    font-size: 18px;
+}
+footer span{
+    color: red;
+}

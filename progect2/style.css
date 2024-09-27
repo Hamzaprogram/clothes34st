@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-family: system-ui, -apple-system ;
+    scroll-behavior: smooth;/*يعمل تحرك بشكل كويس*/
+}
+/*  محرك الملف  */
+::-webkit-scrollbar{
+    width: .88em;
+}
+::-webkit-scrollbar-track{
+    border: 7px solid #292c3b;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    background-color: #d4d4d8;
+    box-shadow: 0 0 2.5px 2px rgba(0, 0 ,0 ,0.5 );
+}
+::-webkit-scrollbar-thumb{
+    background-color: #999;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: #555;
+}
+/* ستستخدم علي طول */
+.flex{
+    display: flex;
+    align-items: center;
+}
+.border{
+    border: 3px solid red;
+}
+
+a,
+button {
+  all: unset;
+  display: inline-block;
+  transition: 0.2s;
+}
+
+button:active,
+a:active {
+  scale: 0.9;
+}
+button:hover,
+a:hover {
+  cursor: pointer;
+}
+
+button:disabled{
+  opacity: 0.7;
+  cursor: not-allowed;
+  scale: 1;
+}
+
+li {
+  list-style: none;
+}
+/*--------------------------------------------------*/
+.fa-solid{
+    color: #40464d;
+}
+main{
+  width: 80%;
+  margin-inline: auto;
+}

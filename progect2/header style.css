@@ -1,0 +1,82 @@
+header.flex{
+    
+    justify-content:space-between ;
+    padding-inline: 10%;
+    padding-top: 1rem;
+}
+header.flex .sing_in{
+    
+    margin-inline:1rem;
+}
+header.flex .sing_in ,
+header.flex .register{
+    
+    border: 1px solid black;
+    padding: .44rem 1rem;
+    border-radius: 56px;
+    -webkit-border-radius: 56px;
+    -moz-border-radius: 56px;
+    -ms-border-radius: 56px;
+    -o-border-radius: 56px;
+    font-size: 13px;
+    font-weight: 600;
+
+}
+header.flex .sing_in:hover ,
+header.flex .register:hover{
+    background-color: #2b3445;
+    color: #9fc5ef;
+}
+
+header.flex .sing_in:hover .fa-solid ,
+header.flex .register:hover .fa-solid{
+    background-color: #2b3445;
+    color: #9fc5ef;
+}
+& .links .fa-solid{
+    margin-right: .3rem;
+}
+& .cart{
+    color:#9fc5ef;
+    background-color: #2b3445;
+    font-size: .9rem;
+    padding: .34rem 1.1rem .44rem .6rem;
+    border-radius: 55px;
+    -webkit-border-radius: 55px;
+    -moz-border-radius: 55px;
+    -ms-border-radius: 55px;
+    -o-border-radius: 55px;
+}
+& .cart .fa-solid{
+    color: #9fc5ef;
+}
+& .prod_num{
+    font-size: .7rem;
+    position: absolute;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: rgb(211, 16, 16);
+    height: 22PX;
+    width: 22px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    bottom: 25px;
+    left:55px
+}
+& .fa-bag-shopping{
+    font-size: 2rem;
+}
+@media (width < 530px) {
+    header.flex{
+        padding-inline:0 ;
+    }
+    header.flex .sing_in{
+        margin-inline:0 ;
+    }
+}

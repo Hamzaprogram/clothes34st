@@ -1,0 +1,116 @@
+body{
+    background-color: #eee;
+}
+header.flex{
+    background-color: #212529;
+    color: white;
+    padding-block: .6rem;
+    & .fa-solid{
+        color: white;
+    }
+    & .logo .fa-solid{
+        font-size: 1.5rem;
+    }
+    header.flex .sing_in:hover ,
+    header.flex .register:hover{
+    padding: .5rem 1.1rem;
+    border: solid 1px rgb(152,154,189);
+}
+    & .cart:hover{
+        border: 1px solid rgb(152, 154, 189);
+        padding: .5rem 1.1rem .5rem .7rem;
+    }
+}
+section.cart2 article.flex{
+    background-color: white;
+    border-top:solid 2px blue ;
+    margin-top: 1.8rem;
+    justify-content: space-between;
+    max-width: 500px;
+    margin-inline:auto ;
+    font-weight: 500;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 1px -1px,
+    rgba(0, 0, 0, 0.14) 0px 1px 1px 0px,
+    rgba(0, 0, 0, 0.12) 0px 1px 3px 0px;
+    & .fa-trash-can{
+        color: red;
+        margin-left:1rem ;
+    }
+    & button.decrease{
+        color: blue;font-size: 1.4rem;
+    }
+    & .quantity{
+        background-color: blue;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        width: 21px;
+        height: 21px;
+        justify-content: center;
+        color:white;
+        font-size: .8rem;
+        margin-inline: .4rem;
+}
+    & button.increase{
+        color: blue;
+        font-size: 1.4rem;
+    }
+}
+button.clear{
+    background-color: red;
+    color: white;
+    font-size: .8rem;
+    padding: 6px 8px;
+    margin-top: 1rem;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+section.summary{
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 1px -1px,    rgba(0, 0, 0, 0.14) 0px 1px 1px 0px,    rgba(0, 0, 0, 0.12) 0px 1px 3px 0px;
+    width: 250px;
+    margin-inline: auto;
+    margin-top: 2.3rem;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    & h1{
+        font-size: 1.2rem;
+        padding-block: .5rem;
+        border-bottom: 2px solid rgb(0, 0, 0,.2);
+    }
+    & div.flex{
+        padding-inline: .5rem;
+        margin-block: .6rem;
+        justify-content: space-between;
+    }
+    & button.checkout{
+        background-color: blue;
+        border-radius: 4px;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        -ms-border-radius: 4px;
+        -o-border-radius: 4px;
+        color: white;
+        font-size: .9rem;
+        font-weight: 500;
+        padding-block: .6rem;
+        width: 100%;
+}
+    & a{
+        color: red;
+        padding-block: .5rem;
+    }
+}

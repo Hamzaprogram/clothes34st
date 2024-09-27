@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sing in</title>
+    <link rel="stylesheet" href="register.css">
+    <link href="/docs/5.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="../header style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <style>
+            .fa-solid{
+                color: white;
+            }
+            body {
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+}
+
+.cover-container {
+  max-width: 42em;
+}
+
+        </style>
+</head>
+<body>
+    <body style="height: 100vh ;display: grid;grid-template-rows: auto 1fr auto;align-items: center; " class=" text-center text-bg-dark">
+        <header class="flex">
+            <div class="logo">
+                <i class="fa-solid fa-bag-shopping"></i>
+                <span style="font-weight: bold;">AWU</span>
+                <P style="font-weight: bold;">Shopping</P>
+                
+                </div>
+                <div class="links">
+                <a style="position: relative;" class="cart" href="cart.html" target="_blank">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <span>$0.00</span>
+                        <span class="prod_num">2</span>
+                </a>
+                <a target="_blank" class="sing_in border" href="sing in.html">
+                    <i class="fa-solid fa-right-to-bracket"></i>
+                    sing in</a>
+                <a target="_blank" class="register" href="register.html">
+                    <i class="fa-solid fa-user-plus"></i>
+                    register</a>
+                </div>
+            </header>
+      <main class="px-4">
+        <form style="text-align: left;">
+            <div class="mb-4">
+                <label for="username" class="form-label">User Name</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                
+              </div>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Sing In</button>
+          </form>
+      </main>
+    <footer>
+        Designed and Developed by
+        <span> Hamza Mohamed</span> @2024
+    </footer>
+</body>
+</html>
